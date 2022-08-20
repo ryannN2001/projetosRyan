@@ -1,4 +1,6 @@
-
+Import Fila()
+Import Pilha()
+Inport Lista()
 operacao = ""
 
 while operacao != 0:
