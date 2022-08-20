@@ -17,21 +17,21 @@ class Pilha:
     
     def pop(self): #remove o elemento do topo
         if self._size > 0:
-            node = self.top
-            self.top = self.top.next
-            self._size = self._size -1
+            node = self.top #node recebe topo
+            self.top = self.top.next #self top recebe o próximo
+            self._size = self._size -1 
             return node.data
         return ' pilha vazia '
     
     def peek(self): # retorna o topo sem remover
-           if self._size > 0:
+           if self._size > 0: # se tamanho for maior que zero ele retorna topo e se estiver vazio retorna vazio
             return self.top.data
            return ' pilha vazia '
        
     def __len__(self): # ler o elementos na pilha
         
         r =''
-        pointer = self.top #variavél pointer é o ponteiro 
+        pointer = self.top #variavél pointer é o ponteiro na qual aponta o próximo
         while(pointer):
             r = r + str(pointer.data) + " \n "
             pointer = pointer.next
