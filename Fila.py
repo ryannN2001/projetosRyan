@@ -29,7 +29,7 @@ class Fila:
         if self.primeiro == None:
             self.ultimo = None
             
-    def apaga_lista(self):
+    def apaga_fila(self):
         while self.prox != None:
             self.remove_proximo()
         return ' Lista apagada com sucesso! '
