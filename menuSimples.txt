@@ -1,0 +1,22 @@
+
+operacao = ""
+
+while operacao != 0:
+    print('=-'*12)
+    print("menu principal")
+    print('-='*12)
+    print("- Digite 1 para lista","\n- Digite 2 para pilha","\n- Digite 3 para fila\n0 - Encerrar o programa")
+    print('=-'*12)
+
+
+    operacao = int(input("Digite uma opção: "))
+
+    if operacao == 1:
+        print("Criando lista")
+    elif operacao == 2:    
+        print("Criando pilha")
+    elif operacao == 3:
+        print("Criando fila")
+    elif operacao != 0:
+        print(" ERRO, Digite uma opção válida! ")
+print("Program encerrado!")
