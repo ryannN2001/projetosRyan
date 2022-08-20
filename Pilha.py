@@ -40,9 +40,9 @@ class Pilha:
     def __str__(self): #mostrar os elementos para o usuário
         return self.__repr__()
     
-    def apaga_lista(self):
+    def apaga_pilha(self):
         while self.top != None:
-            self.remove_top()
+           self.remove_top()
         return ' Lista apagada com sucesso! '
     
     
