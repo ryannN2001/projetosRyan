@@ -1,6 +1,6 @@
-Import Fila()
-Import Pilha()
-Inport Lista()
+Import submenuFila()
+Import submenuPilha()
+Inport submenuLista()
 operacao = ""
 
 while operacao != 0:
