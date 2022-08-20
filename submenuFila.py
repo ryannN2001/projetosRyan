@@ -19,6 +19,7 @@ if opção == 1:
 elif opção == 2:
    valor = int(input(" Digite uma posição para encontrar o elemento: "))
    print()
+      Pass
       
 elif opção == 3:
       valor = int(input(" digite um numero para buscar um determinado elemento a fila: "))
@@ -27,6 +28,7 @@ elif opção == 3:
     
 elif opção == 4:
       print(fila.remove())
+      Pass
   
 elif opção == 5:
       print(fila.apaga_lista())
